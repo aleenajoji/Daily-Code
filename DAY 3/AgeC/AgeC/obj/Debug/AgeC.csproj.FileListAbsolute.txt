@@ -1,0 +1,8 @@
+D:\Training\DAY 3\speed\AgeC\AgeC\bin\Debug\AgeC.exe.config
+D:\Training\DAY 3\speed\AgeC\AgeC\bin\Debug\AgeC.exe
+D:\Training\DAY 3\speed\AgeC\AgeC\bin\Debug\AgeC.pdb
+D:\Training\DAY 3\speed\AgeC\AgeC\obj\Debug\AgeC.csproj.AssemblyReference.cache
+D:\Training\DAY 3\speed\AgeC\AgeC\obj\Debug\AgeC.csproj.SuggestedBindingRedirects.cache
+D:\Training\DAY 3\speed\AgeC\AgeC\obj\Debug\AgeC.csproj.CoreCompileInputs.cache
+D:\Training\DAY 3\speed\AgeC\AgeC\obj\Debug\AgeC.exe
+D:\Training\DAY 3\speed\AgeC\AgeC\obj\Debug\AgeC.pdb

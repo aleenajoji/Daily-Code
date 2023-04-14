@@ -1,0 +1,8 @@
+D:\Training\DAY 3\speed\Speed\Speed\bin\Debug\Speed.exe.config
+D:\Training\DAY 3\speed\Speed\Speed\bin\Debug\Speed.exe
+D:\Training\DAY 3\speed\Speed\Speed\bin\Debug\Speed.pdb
+D:\Training\DAY 3\speed\Speed\Speed\obj\Debug\Speed.csproj.AssemblyReference.cache
+D:\Training\DAY 3\speed\Speed\Speed\obj\Debug\Speed.csproj.SuggestedBindingRedirects.cache
+D:\Training\DAY 3\speed\Speed\Speed\obj\Debug\Speed.csproj.CoreCompileInputs.cache
+D:\Training\DAY 3\speed\Speed\Speed\obj\Debug\Speed.exe
+D:\Training\DAY 3\speed\Speed\Speed\obj\Debug\Speed.pdb

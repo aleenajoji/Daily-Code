@@ -1,0 +1,8 @@
+D:\Training\DAY 5\AccountDemoApp\AccountDemoApp\obj\Debug\AccountDemoApp.csproj.AssemblyReference.cache
+D:\Training\DAY 5\AccountDemoApp\AccountDemoApp\obj\Debug\AccountDemoApp.csproj.SuggestedBindingRedirects.cache
+D:\Training\DAY 5\AccountDemoApp\AccountDemoApp\obj\Debug\AccountDemoApp.csproj.CoreCompileInputs.cache
+D:\Training\DAY 5\AccountDemoApp\AccountDemoApp\bin\Debug\AccountDemoApp.exe.config
+D:\Training\DAY 5\AccountDemoApp\AccountDemoApp\bin\Debug\AccountDemoApp.exe
+D:\Training\DAY 5\AccountDemoApp\AccountDemoApp\bin\Debug\AccountDemoApp.pdb
+D:\Training\DAY 5\AccountDemoApp\AccountDemoApp\obj\Debug\AccountDemoApp.exe
+D:\Training\DAY 5\AccountDemoApp\AccountDemoApp\obj\Debug\AccountDemoApp.pdb

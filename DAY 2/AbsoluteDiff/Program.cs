@@ -1,0 +1,33 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace AbsoluteDiff
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int n = 0 , AbsD;
+            //enter a number
+            Console.WriteLine("Enter number greater than 51");
+            n=int.Parse(Console.ReadLine());
+            //function to calculate absolute differece
+            AbsD = CalAb(n);
+            Console.WriteLine(AbsD);
+        }
+        static int CalAb(int n)
+        {
+            int x = 51;//initialise since x must be 51
+            if (n > x)
+            {
+                return (n-x) * 3;
+            }
+            return (x-n);
+
+        }
+
+    }
+}

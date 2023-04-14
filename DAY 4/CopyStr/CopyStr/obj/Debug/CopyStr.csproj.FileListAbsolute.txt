@@ -1,0 +1,8 @@
+D:\Training\DAY 3\speed\CopyStr\CopyStr\bin\Debug\CopyStr.exe.config
+D:\Training\DAY 3\speed\CopyStr\CopyStr\bin\Debug\CopyStr.exe
+D:\Training\DAY 3\speed\CopyStr\CopyStr\bin\Debug\CopyStr.pdb
+D:\Training\DAY 3\speed\CopyStr\CopyStr\obj\Debug\CopyStr.csproj.AssemblyReference.cache
+D:\Training\DAY 3\speed\CopyStr\CopyStr\obj\Debug\CopyStr.csproj.SuggestedBindingRedirects.cache
+D:\Training\DAY 3\speed\CopyStr\CopyStr\obj\Debug\CopyStr.csproj.CoreCompileInputs.cache
+D:\Training\DAY 3\speed\CopyStr\CopyStr\obj\Debug\CopyStr.exe
+D:\Training\DAY 3\speed\CopyStr\CopyStr\obj\Debug\CopyStr.pdb

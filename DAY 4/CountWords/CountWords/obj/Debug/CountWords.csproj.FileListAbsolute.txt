@@ -1,0 +1,8 @@
+D:\Training\DAY 3\speed\CountWords\CountWords\bin\Debug\CountWords.exe.config
+D:\Training\DAY 3\speed\CountWords\CountWords\bin\Debug\CountWords.exe
+D:\Training\DAY 3\speed\CountWords\CountWords\bin\Debug\CountWords.pdb
+D:\Training\DAY 3\speed\CountWords\CountWords\obj\Debug\CountWords.csproj.AssemblyReference.cache
+D:\Training\DAY 3\speed\CountWords\CountWords\obj\Debug\CountWords.csproj.SuggestedBindingRedirects.cache
+D:\Training\DAY 3\speed\CountWords\CountWords\obj\Debug\CountWords.csproj.CoreCompileInputs.cache
+D:\Training\DAY 3\speed\CountWords\CountWords\obj\Debug\CountWords.exe
+D:\Training\DAY 3\speed\CountWords\CountWords\obj\Debug\CountWords.pdb

@@ -1,0 +1,5 @@
+﻿Build started...
+1>------ Build started: Project: CopyStr, Configuration: Debug Any CPU ------
+1>  CopyStr -> D:\Training\DAY 3\speed\CopyStr\CopyStr\bin\Debug\CopyStr.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Build started at 4:41 PM and took 00.349 seconds ==========

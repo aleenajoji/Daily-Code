@@ -1,0 +1,8 @@
+D:\Training\DAY 10\CollectionDemo\CollectionDemo\bin\Debug\CollectionDemo.exe.config
+D:\Training\DAY 10\CollectionDemo\CollectionDemo\bin\Debug\CollectionDemo.exe
+D:\Training\DAY 10\CollectionDemo\CollectionDemo\bin\Debug\CollectionDemo.pdb
+D:\Training\DAY 10\CollectionDemo\CollectionDemo\obj\Debug\CollectionDemo.csproj.AssemblyReference.cache
+D:\Training\DAY 10\CollectionDemo\CollectionDemo\obj\Debug\CollectionDemo.csproj.SuggestedBindingRedirects.cache
+D:\Training\DAY 10\CollectionDemo\CollectionDemo\obj\Debug\CollectionDemo.csproj.CoreCompileInputs.cache
+D:\Training\DAY 10\CollectionDemo\CollectionDemo\obj\Debug\CollectionDemo.exe
+D:\Training\DAY 10\CollectionDemo\CollectionDemo\obj\Debug\CollectionDemo.pdb

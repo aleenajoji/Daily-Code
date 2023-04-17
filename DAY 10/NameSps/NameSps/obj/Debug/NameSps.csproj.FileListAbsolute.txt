@@ -1,0 +1,3 @@
+D:\Training\DAY 10\NameSps\NameSps\obj\Debug\NameSps.csproj.AssemblyReference.cache
+D:\Training\DAY 10\NameSps\NameSps\obj\Debug\NameSps.csproj.SuggestedBindingRedirects.cache
+D:\Training\DAY 10\NameSps\NameSps\obj\Debug\NameSps.csproj.CoreCompileInputs.cache

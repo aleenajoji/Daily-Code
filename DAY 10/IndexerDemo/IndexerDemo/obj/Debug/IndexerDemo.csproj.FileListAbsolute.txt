@@ -1,0 +1,8 @@
+D:\Training\DAY 10\IndexerDemo\IndexerDemo\obj\Debug\IndexerDemo.csproj.AssemblyReference.cache
+D:\Training\DAY 10\IndexerDemo\IndexerDemo\obj\Debug\IndexerDemo.csproj.SuggestedBindingRedirects.cache
+D:\Training\DAY 10\IndexerDemo\IndexerDemo\obj\Debug\IndexerDemo.csproj.CoreCompileInputs.cache
+D:\Training\DAY 10\IndexerDemo\IndexerDemo\bin\Debug\IndexerDemo.exe.config
+D:\Training\DAY 10\IndexerDemo\IndexerDemo\bin\Debug\IndexerDemo.exe
+D:\Training\DAY 10\IndexerDemo\IndexerDemo\bin\Debug\IndexerDemo.pdb
+D:\Training\DAY 10\IndexerDemo\IndexerDemo\obj\Debug\IndexerDemo.exe
+D:\Training\DAY 10\IndexerDemo\IndexerDemo\obj\Debug\IndexerDemo.pdb

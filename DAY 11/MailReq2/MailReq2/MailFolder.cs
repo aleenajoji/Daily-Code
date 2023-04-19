@@ -60,7 +60,7 @@ namespace MailFolder
                 Console.WriteLine("{0} {1,15} {2,15} {3,15} {4,15} {5,15} {6,15}", "Id", "From", "To", "Subject", "Content", "ReceivedDate", "Size");
                 foreach (Mail mail in MailList)
                 {
-                    Console.WriteLine(mail);
+                    Console.WriteLine(mail.ToString());
                 }
             }
         }

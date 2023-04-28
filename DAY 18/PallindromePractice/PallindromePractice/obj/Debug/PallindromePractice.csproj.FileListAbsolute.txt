@@ -1,0 +1,8 @@
+D:\Training\DAY 18\PallindromePractice\PallindromePractice\bin\Debug\PallindromePractice.exe.config
+D:\Training\DAY 18\PallindromePractice\PallindromePractice\bin\Debug\PallindromePractice.exe
+D:\Training\DAY 18\PallindromePractice\PallindromePractice\bin\Debug\PallindromePractice.pdb
+D:\Training\DAY 18\PallindromePractice\PallindromePractice\obj\Debug\PallindromePractice.csproj.AssemblyReference.cache
+D:\Training\DAY 18\PallindromePractice\PallindromePractice\obj\Debug\PallindromePractice.csproj.SuggestedBindingRedirects.cache
+D:\Training\DAY 18\PallindromePractice\PallindromePractice\obj\Debug\PallindromePractice.csproj.CoreCompileInputs.cache
+D:\Training\DAY 18\PallindromePractice\PallindromePractice\obj\Debug\PallindromePractice.exe
+D:\Training\DAY 18\PallindromePractice\PallindromePractice\obj\Debug\PallindromePractice.pdb

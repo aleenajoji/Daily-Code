@@ -1,0 +1,8 @@
+D:\Training\DAY 17\SongGroupApp3\SongGroupApp\obj\Debug\SongGroupAppReq3.csproj.AssemblyReference.cache
+D:\Training\DAY 17\SongGroupApp3\SongGroupApp\obj\Debug\SongGroupAppReq3.csproj.SuggestedBindingRedirects.cache
+D:\Training\DAY 17\SongGroupApp3\SongGroupApp\obj\Debug\SongGroupAppReq3.csproj.CoreCompileInputs.cache
+D:\Training\DAY 17\SongGroupApp3\SongGroupApp\obj\Debug\SongGroupApp.exe
+D:\Training\DAY 17\SongGroupApp3\SongGroupApp\obj\Debug\SongGroupApp.pdb
+D:\Training\DAY 17\SongGroupApp3\SongGroupApp\bin\Debug\SongGroupApp.exe.config
+D:\Training\DAY 17\SongGroupApp3\SongGroupApp\bin\Debug\SongGroupApp.exe
+D:\Training\DAY 17\SongGroupApp3\SongGroupApp\bin\Debug\SongGroupApp.pdb

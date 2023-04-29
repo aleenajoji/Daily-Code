@@ -1,0 +1,8 @@
+D:\Training\DAY 19\CheckBinary\CheckBinary\bin\Debug\CheckBinary.exe.config
+D:\Training\DAY 19\CheckBinary\CheckBinary\bin\Debug\CheckBinary.exe
+D:\Training\DAY 19\CheckBinary\CheckBinary\bin\Debug\CheckBinary.pdb
+D:\Training\DAY 19\CheckBinary\CheckBinary\obj\Debug\CheckBinary.csproj.AssemblyReference.cache
+D:\Training\DAY 19\CheckBinary\CheckBinary\obj\Debug\CheckBinary.csproj.SuggestedBindingRedirects.cache
+D:\Training\DAY 19\CheckBinary\CheckBinary\obj\Debug\CheckBinary.csproj.CoreCompileInputs.cache
+D:\Training\DAY 19\CheckBinary\CheckBinary\obj\Debug\CheckBinary.exe
+D:\Training\DAY 19\CheckBinary\CheckBinary\obj\Debug\CheckBinary.pdb

@@ -1,0 +1,8 @@
+D:\Training\DAY 20\MangoInfoApp\MangoInfoApp\bin\Debug\MangoInfoApp.exe.config
+D:\Training\DAY 20\MangoInfoApp\MangoInfoApp\bin\Debug\MangoInfoApp.exe
+D:\Training\DAY 20\MangoInfoApp\MangoInfoApp\bin\Debug\MangoInfoApp.pdb
+D:\Training\DAY 20\MangoInfoApp\MangoInfoApp\obj\Debug\MangoInfoApp.csproj.AssemblyReference.cache
+D:\Training\DAY 20\MangoInfoApp\MangoInfoApp\obj\Debug\MangoInfoApp.csproj.SuggestedBindingRedirects.cache
+D:\Training\DAY 20\MangoInfoApp\MangoInfoApp\obj\Debug\MangoInfoApp.csproj.CoreCompileInputs.cache
+D:\Training\DAY 20\MangoInfoApp\MangoInfoApp\obj\Debug\MangoInfoApp.exe
+D:\Training\DAY 20\MangoInfoApp\MangoInfoApp\obj\Debug\MangoInfoApp.pdb

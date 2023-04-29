@@ -1,0 +1,8 @@
+D:\Training\DAY 20\ReactorDemo\ReactorDemo\obj\Debug\ReactorDemo.csproj.AssemblyReference.cache
+D:\Training\DAY 20\ReactorDemo\ReactorDemo\obj\Debug\ReactorDemo.csproj.SuggestedBindingRedirects.cache
+D:\Training\DAY 20\ReactorDemo\ReactorDemo\obj\Debug\ReactorDemo.csproj.CoreCompileInputs.cache
+D:\Training\DAY 20\ReactorDemo\ReactorDemo\bin\Debug\ReactorDemo.exe.config
+D:\Training\DAY 20\ReactorDemo\ReactorDemo\bin\Debug\ReactorDemo.exe
+D:\Training\DAY 20\ReactorDemo\ReactorDemo\bin\Debug\ReactorDemo.pdb
+D:\Training\DAY 20\ReactorDemo\ReactorDemo\obj\Debug\ReactorDemo.exe
+D:\Training\DAY 20\ReactorDemo\ReactorDemo\obj\Debug\ReactorDemo.pdb

@@ -1,0 +1,8 @@
+D:\Training\DAY 20\ConvertFiveProgram\ConvertFiveProgram\bin\Debug\ConvertFiveProgram.exe.config
+D:\Training\DAY 20\ConvertFiveProgram\ConvertFiveProgram\bin\Debug\ConvertFiveProgram.exe
+D:\Training\DAY 20\ConvertFiveProgram\ConvertFiveProgram\bin\Debug\ConvertFiveProgram.pdb
+D:\Training\DAY 20\ConvertFiveProgram\ConvertFiveProgram\obj\Debug\ConvertFiveProgram.csproj.AssemblyReference.cache
+D:\Training\DAY 20\ConvertFiveProgram\ConvertFiveProgram\obj\Debug\ConvertFiveProgram.csproj.SuggestedBindingRedirects.cache
+D:\Training\DAY 20\ConvertFiveProgram\ConvertFiveProgram\obj\Debug\ConvertFiveProgram.csproj.CoreCompileInputs.cache
+D:\Training\DAY 20\ConvertFiveProgram\ConvertFiveProgram\obj\Debug\ConvertFiveProgram.exe
+D:\Training\DAY 20\ConvertFiveProgram\ConvertFiveProgram\obj\Debug\ConvertFiveProgram.pdb

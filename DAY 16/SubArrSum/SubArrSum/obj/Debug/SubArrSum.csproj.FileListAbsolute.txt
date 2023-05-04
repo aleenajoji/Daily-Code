@@ -1,8 +1,0 @@
-D:\Training\DAY 16\SubArrSum\SubArrSum\bin\Debug\SubArrSum.exe.config
-D:\Training\DAY 16\SubArrSum\SubArrSum\bin\Debug\SubArrSum.exe
-D:\Training\DAY 16\SubArrSum\SubArrSum\bin\Debug\SubArrSum.pdb
-D:\Training\DAY 16\SubArrSum\SubArrSum\obj\Debug\SubArrSum.csproj.AssemblyReference.cache
-D:\Training\DAY 16\SubArrSum\SubArrSum\obj\Debug\SubArrSum.csproj.SuggestedBindingRedirects.cache
-D:\Training\DAY 16\SubArrSum\SubArrSum\obj\Debug\SubArrSum.csproj.CoreCompileInputs.cache
-D:\Training\DAY 16\SubArrSum\SubArrSum\obj\Debug\SubArrSum.exe
-D:\Training\DAY 16\SubArrSum\SubArrSum\obj\Debug\SubArrSum.pdb

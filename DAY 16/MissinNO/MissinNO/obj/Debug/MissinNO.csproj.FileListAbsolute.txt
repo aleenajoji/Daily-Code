@@ -1,8 +1,0 @@
-D:\Training\DAY 16\MissinNO\MissinNO\bin\Debug\MissinNO.exe.config
-D:\Training\DAY 16\MissinNO\MissinNO\bin\Debug\MissinNO.exe
-D:\Training\DAY 16\MissinNO\MissinNO\bin\Debug\MissinNO.pdb
-D:\Training\DAY 16\MissinNO\MissinNO\obj\Debug\MissinNO.csproj.AssemblyReference.cache
-D:\Training\DAY 16\MissinNO\MissinNO\obj\Debug\MissinNO.csproj.SuggestedBindingRedirects.cache
-D:\Training\DAY 16\MissinNO\MissinNO\obj\Debug\MissinNO.csproj.CoreCompileInputs.cache
-D:\Training\DAY 16\MissinNO\MissinNO\obj\Debug\MissinNO.exe
-D:\Training\DAY 16\MissinNO\MissinNO\obj\Debug\MissinNO.pdb

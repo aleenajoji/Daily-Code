@@ -1,0 +1,8 @@
+D:\Training\DAY 23\SampleLinq1\SampleLinq1\obj\Debug\SampleLinq1.csproj.AssemblyReference.cache
+D:\Training\DAY 23\SampleLinq1\SampleLinq1\obj\Debug\SampleLinq1.csproj.SuggestedBindingRedirects.cache
+D:\Training\DAY 23\SampleLinq1\SampleLinq1\obj\Debug\SampleLinq1.csproj.CoreCompileInputs.cache
+D:\Training\DAY 23\SampleLinq1\SampleLinq1\bin\Debug\SampleLinq1.exe.config
+D:\Training\DAY 23\SampleLinq1\SampleLinq1\bin\Debug\SampleLinq1.exe
+D:\Training\DAY 23\SampleLinq1\SampleLinq1\bin\Debug\SampleLinq1.pdb
+D:\Training\DAY 23\SampleLinq1\SampleLinq1\obj\Debug\SampleLinq1.exe
+D:\Training\DAY 23\SampleLinq1\SampleLinq1\obj\Debug\SampleLinq1.pdb

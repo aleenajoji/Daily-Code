@@ -1,0 +1,88 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil\fcharset2 Symbol;}}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\f0\fs22\lang9\par
+                                                                      \ul\b\fs36 Assembly\b0\fs22\par
+\ulnone\par
+\b\fs24 What is a .Net Assembly?\par
+\b0  \par
+The .NET assembly is the standard for components developed with the Microsoft.NET. Dot NET assemblies may or may not be executable, i.e., they might exist as the executable (.exe) file or dynamic link library (DLL) file. All the .NET assemblies contain the definition of types, versioning information for the type, meta-data, and manifest. The designers of .NET have worked a lot on the component (assembly) resolution.\par
+ \par
+An assembly can be a single file or it may consist of the multiple files. In the case of multi-file, there is one master module containing the manifest while other assemblies exist as non-manifest modules. A module in .NET is a subpart of a multi-file .NET assembly. Assembly is one of the most interesting and extremely useful areas of .NET architecture along with reflections and attributes. \par
+\par
+\ul .NET supports three kinds of assemblies:\par
+\ulnone private\par
+shared\par
+satellite\par
+\b Private Assembly\par
+\b0  \par
+Private assembly requires us to copy separately in all application folders where we want to use that assembly\rquote s functionalities; without copying, we cannot access the private assembly features and power. Private assembly means every time we have one, we exclusively copy into the BIN folder of each application folder.\par
+ \par
+\b Public Assembly\par
+\b0  \par
+Public assembly is not required to copy separately into all application folders. Public assembly is also called Shared Assembly. Only one copy is required in system level, there is no need to copy the assembly into the application folder.\par
+ \par
+Public assembly should install in GAC.\par
+ \par
+Shared assemblies (also called strong named assemblies) are copied to a single location (usually the Global assembly cache). For all calling assemblies within the same application, the same copy of the shared assembly is used from its original location. Hence, shared assemblies are not copied in the private folders of each calling assembly. Each shared assembly has a four-part name including its face name, version, public key token, and culture information. The public key token and version information makes it almost impossible for two different assemblies with the same name or for two similar assemblies with a different version to mix with each other.\par
+ \par
+Learn How to Create and Use a Shared Assembly \par
+ \par
+GAC (Global Assembly Cache)\par
+ \par
+When the assembly is required for more than one project or application, we need to make the assembly with a strong name and keep it in GAC or in the Assembly folder by installing the assembly with the GACUtil command.\par
+ \par
+\b Satellite Assembly\par
+\b0  \par
+Satellite assemblies are used for deploying language and culture-specific resources for an application.\par
+\par
+\ul Assemblies have the following properties\ulnone :\par
+\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Assemblies are implemented as .exe or .dll files.\par
+
+\pard\sa200\sl276\slmult1\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 For libraries that target .NET Framework, you can share assemblies between applications by putting them in the global assembly cache (GAC). You must strong-name assemblies before you can include them in the GAC. For more information, see Strong-named assemblies.\par
+
+\pard\sa200\sl276\slmult1\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Assemblies are only loaded into memory if they're required. If they aren't used, they aren't loaded. Therefore, assemblies can be an efficient way to manage resources in larger projects.\par
+
+\pard\sa200\sl276\slmult1\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 You can programmatically obtain information about an assembly by using reflection. For more information, see Reflection (C#) or Reflection (Visual Basic).\par
+
+\pard\sa200\sl276\slmult1\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 You can load an assembly just to inspect it by using the MetadataLoadContext class on .NET and .NET Framework. MetadataLoadContext replaces the Assembly.ReflectionOnlyLoad methods.\par
+
+\pard\sa200\sl276\slmult1\par
+\b Assemblies in the common language runtime\par
+\b0 Assemblies provide the common language runtime with the information it needs to be aware of type implementations. To the runtime, a type doesn't exist outside the context of an assembly.\par
+\par
+An assembly defines the following information:\par
+\par
+Code that the common language runtime executes. Each assembly can have only one entry point: DllMain, WinMain, or Main.\par
+\par
+The security boundary. An assembly is the unit at which permissions are requested and granted. For more information about security boundaries in assemblies, see Assembly security considerations.\par
+\par
+The type boundary. Every type's identity includes the name of the assembly in which it resides. A type called MyType that's loaded in the scope of one assembly isn't the same as a type called MyType that's loaded in the scope of another assembly.\par
+\par
+The reference-scope boundary: The assembly manifest has metadata that's used for resolving types and satisfying resource requests. The manifest specifies the types and resources to expose outside the assembly and enumerates other assemblies on which it depends. Microsoft intermediate language (MSIL) code in a portable executable (PE) file won't be executed unless it has an associated assembly manifest.\par
+\par
+The version boundary. The assembly is the smallest versionable unit in the common language runtime. All types and resources in the same assembly are versioned as a unit. The assembly manifest describes the version dependencies you specify for any dependent assemblies. For more information about versioning, see Assembly versioning.\par
+\par
+The deployment unit: When an application starts, only the assemblies that the application initially calls must be present. Other assemblies, such as assemblies containing localization resources or utility classes, can be retrieved on demand. This process allows apps to be simple and thin when first downloaded. For more information about deploying assemblies, see Deploy applications.\par
+\par
+A side-by-side execution unit: For more information about running multiple versions of an assembly, see Assemblies and side-by-side execution.\par
+\par
+\b Create an assembly\par
+\b0 Assemblies can be static or dynamic. Static assemblies are stored on a disk in portable executable (PE) files. Static assemblies can include interfaces, classes, and resources like bitmaps, JPEG files, and other resource files. You can also create dynamic assemblies, which are run directly from memory and aren't saved to disk before execution. You can save dynamic assemblies to disk after they've been executed.\par
+\par
+There are several ways to create assemblies. You can use development tools, such as Visual Studio that can create .dll or .exe files. You can use tools in the Windows SDK to create assemblies with modules from other development environments. You can also use common language runtime APIs, such as System.Reflection.Emit, to create dynamic assemblies.\par
+\par
+Compile assemblies by building them in Visual Studio, building them with .NET Core command-line interface tools, or building .NET Framework assemblies with a command-line compiler. For more information about building assemblies using .NET CLI, see .NET CLI overview.\par
+ \par
+\ul\par
+}
+ 

@@ -1,0 +1,15 @@
+D:\Training\DAY 23\corePract\MyApp\bin\Debug\net7.0\MyApp.exe
+D:\Training\DAY 23\corePract\MyApp\bin\Debug\net7.0\MyApp.deps.json
+D:\Training\DAY 23\corePract\MyApp\bin\Debug\net7.0\MyApp.runtimeconfig.json
+D:\Training\DAY 23\corePract\MyApp\bin\Debug\net7.0\MyApp.dll
+D:\Training\DAY 23\corePract\MyApp\bin\Debug\net7.0\MyApp.pdb
+D:\Training\DAY 23\corePract\MyApp\obj\Debug\net7.0\MyApp.csproj.AssemblyReference.cache
+D:\Training\DAY 23\corePract\MyApp\obj\Debug\net7.0\MyApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Training\DAY 23\corePract\MyApp\obj\Debug\net7.0\MyApp.AssemblyInfoInputs.cache
+D:\Training\DAY 23\corePract\MyApp\obj\Debug\net7.0\MyApp.AssemblyInfo.cs
+D:\Training\DAY 23\corePract\MyApp\obj\Debug\net7.0\MyApp.csproj.CoreCompileInputs.cache
+D:\Training\DAY 23\corePract\MyApp\obj\Debug\net7.0\MyApp.dll
+D:\Training\DAY 23\corePract\MyApp\obj\Debug\net7.0\refint\MyApp.dll
+D:\Training\DAY 23\corePract\MyApp\obj\Debug\net7.0\MyApp.pdb
+D:\Training\DAY 23\corePract\MyApp\obj\Debug\net7.0\MyApp.genruntimeconfig.cache
+D:\Training\DAY 23\corePract\MyApp\obj\Debug\net7.0\ref\MyApp.dll

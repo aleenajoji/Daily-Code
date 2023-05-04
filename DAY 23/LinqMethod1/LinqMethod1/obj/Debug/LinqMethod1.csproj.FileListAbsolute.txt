@@ -1,0 +1,8 @@
+D:\Training\DAY 23\LinqMethod1\LinqMethod1\bin\Debug\LinqMethod1.exe.config
+D:\Training\DAY 23\LinqMethod1\LinqMethod1\bin\Debug\LinqMethod1.exe
+D:\Training\DAY 23\LinqMethod1\LinqMethod1\bin\Debug\LinqMethod1.pdb
+D:\Training\DAY 23\LinqMethod1\LinqMethod1\obj\Debug\LinqMethod1.csproj.AssemblyReference.cache
+D:\Training\DAY 23\LinqMethod1\LinqMethod1\obj\Debug\LinqMethod1.csproj.SuggestedBindingRedirects.cache
+D:\Training\DAY 23\LinqMethod1\LinqMethod1\obj\Debug\LinqMethod1.csproj.CoreCompileInputs.cache
+D:\Training\DAY 23\LinqMethod1\LinqMethod1\obj\Debug\LinqMethod1.exe
+D:\Training\DAY 23\LinqMethod1\LinqMethod1\obj\Debug\LinqMethod1.pdb

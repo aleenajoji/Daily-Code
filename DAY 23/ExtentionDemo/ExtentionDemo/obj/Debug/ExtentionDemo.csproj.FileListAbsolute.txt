@@ -1,0 +1,8 @@
+D:\Training\DAY 23\ExtentionDemo\ExtentionDemo\bin\Debug\ExtentionDemo.exe.config
+D:\Training\DAY 23\ExtentionDemo\ExtentionDemo\bin\Debug\ExtentionDemo.exe
+D:\Training\DAY 23\ExtentionDemo\ExtentionDemo\bin\Debug\ExtentionDemo.pdb
+D:\Training\DAY 23\ExtentionDemo\ExtentionDemo\obj\Debug\ExtentionDemo.csproj.AssemblyReference.cache
+D:\Training\DAY 23\ExtentionDemo\ExtentionDemo\obj\Debug\ExtentionDemo.csproj.SuggestedBindingRedirects.cache
+D:\Training\DAY 23\ExtentionDemo\ExtentionDemo\obj\Debug\ExtentionDemo.csproj.CoreCompileInputs.cache
+D:\Training\DAY 23\ExtentionDemo\ExtentionDemo\obj\Debug\ExtentionDemo.exe
+D:\Training\DAY 23\ExtentionDemo\ExtentionDemo\obj\Debug\ExtentionDemo.pdb

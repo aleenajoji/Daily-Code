@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d6b03cc1902b48cbb66b078f4d9cf629" Name="Diagram1">
+        <EntityTypeShape EntityType="EmpDBModel.BanTB" Width="1.5" PointX="2.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EmpDBModel.COUNTRy" Width="1.5" PointX="8" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EmpDBModel.DEPARTMENT" Width="1.5" PointX="0.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EmpDBModel.EMPLOYEE" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="EmpDBModel.JOB" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EmpDBModel.LOCATION" Width="1.5" PointX="10.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="EmpDBModel.REGION" Width="1.5" PointX="5.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EmpDBModel.customer" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <AssociationConnector Association="EmpDBModel.FK_BanTB_BanTB" ManuallyRouted="false" />
+        <AssociationConnector Association="EmpDBModel.FK_COUNTRIES_REGIONS" ManuallyRouted="false" />
+        <AssociationConnector Association="EmpDBModel.FK_LOCATIONS_COUNTRIES" ManuallyRouted="false" />
+        <AssociationConnector Association="EmpDBModel.FK_EMPLOYEES_DEPARTMENTS" ManuallyRouted="false" />
+        <AssociationConnector Association="EmpDBModel.FK_EMPLOYEES_JOBS" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EmpDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="BanTB">
+    <Key>
+      <PropertyRef Name="accotNo" />
+    </Key>
+    <Property Name="accotNo" Type="Int32" Nullable="false" />
+    <Property Name="acct_holder_name" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="balance" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Ref_acno" Type="Int32" />
+    <NavigationProperty Name="BanTB1" Relationship="Self.FK_BanTB_BanTB" FromRole="BanTB" ToRole="BanTB1" />
+    <NavigationProperty Name="BanTB2" Relationship="Self.FK_BanTB_BanTB" FromRole="BanTB1" ToRole="BanTB" />
+  </EntityType>
+  <EntityType Name="COUNTRy">
+    <Key>
+      <PropertyRef Name="country_id" />
+    </Key>
+    <Property Name="country_id" Type="Int32" Nullable="false" />
+    <Property Name="country_name" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="region_id" Type="Int32" />
+    <NavigationProperty Name="REGION" Relationship="Self.FK_COUNTRIES_REGIONS" FromRole="COUNTRIES" ToRole="REGIONS" />
+    <NavigationProperty Name="LOCATIONS" Relationship="Self.FK_LOCATIONS_COUNTRIES" FromRole="COUNTRIES" ToRole="LOCATIONS" />
+  </EntityType>
+  <EntityType Name="DEPARTMENT">
+    <Key>
+      <PropertyRef Name="department_id" />
+    </Key>
+    <Property Name="department_id" Type="Int32" Nullable="false" />
+    <Property Name="department_name" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="manager_id" Type="Int32" />
+    <Property Name="location_id" Type="Int32" />
+    <NavigationProperty Name="EMPLOYEES" Relationship="Self.FK_EMPLOYEES_DEPARTMENTS" FromRole="DEPARTMENTS" ToRole="EMPLOYEES" />
+  </EntityType>
+  <EntityType Name="EMPLOYEE">
+    <Key>
+      <PropertyRef Name="employee_id" />
+    </Key>
+    <Property Name="employee_id" Type="Int32" Nullable="false" />
+    <Property Name="first_name" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="last_name" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="email" Type="String" MaxLength="30" FixedLength="true" Unicode="true" />
+    <Property Name="phone_number" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="hire_date" Type="DateTime" Precision="3" />
+    <Property Name="job_id" Type="Int32" />
+    <Property Name="salary" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="commission_pct" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="manager_id" Type="Int32" />
+    <Property Name="department_id" Type="Int32" />
+    <NavigationProperty Name="DEPARTMENT" Relationship="Self.FK_EMPLOYEES_DEPARTMENTS" FromRole="EMPLOYEES" ToRole="DEPARTMENTS" />
+    <NavigationProperty Name="JOB" Relationship="Self.FK_EMPLOYEES_JOBS" FromRole="EMPLOYEES" ToRole="JOBS" />
+  </EntityType>
+  <EntityType Name="JOB">
+    <Key>
+      <PropertyRef Name="job_id" />
+    </Key>
+    <Property Name="job_id" Type="Int32" Nullable="false" />
+    <Property Name="job_title" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="min_salary" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="max_salary" Type="Decimal" Precision="19" Scale="4" />
+    <NavigationProperty Name="EMPLOYEES" Relationship="Self.FK_EMPLOYEES_JOBS" FromRole="JOBS" ToRole="EMPLOYEES" />
+  </EntityType>
+  <EntityType Name="LOCATION">
+    <Key>
+      <PropertyRef Name="location_id" />
+    </Key>
+    <Property Name="location_id" Type="Int32" Nullable="false" />
+    <Property Name="street_address" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="postal_code" Type="Int32" />
+    <Property Name="city" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="state_province" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="country_id" Type="Int32" />
+    <NavigationProperty Name="COUNTRy" Relationship="Self.FK_LOCATIONS_COUNTRIES" FromRole="LOCATIONS" ToRole="COUNTRIES" />
+  </EntityType>
+  <EntityType Name="REGION">
+    <Key>
+      <PropertyRef Name="region_id" />
+    </Key>
+    <Property Name="region_id" Type="Int32" Nullable="false" />
+    <Property Name="region_name" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <NavigationProperty Name="COUNTRIES" Relationship="Self.FK_COUNTRIES_REGIONS" FromRole="REGIONS" ToRole="COUNTRIES" />
+  </EntityType>
+  <EntityType Name="customer">
+    <Key>
+      <PropertyRef Name="customer_id" />
+      <PropertyRef Name="customer_name" />
+    </Key>
+    <Property Name="customer_id" Type="Decimal" Precision="4" Scale="0" Nullable="false" />
+    <Property Name="customer_name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="customer_address" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="customer_phone" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <Association Name="FK_BanTB_BanTB">
+    <End Role="BanTB" Type="Self.BanTB" Multiplicity="0..1" />
+    <End Role="BanTB1" Type="Self.BanTB" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BanTB">
+        <PropertyRef Name="accotNo" />
+      </Principal>
+      <Dependent Role="BanTB1">
+        <PropertyRef Name="Ref_acno" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_COUNTRIES_REGIONS">
+    <End Role="REGIONS" Type="Self.REGION" Multiplicity="0..1" />
+    <End Role="COUNTRIES" Type="Self.COUNTRy" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="REGIONS">
+        <PropertyRef Name="region_id" />
+      </Principal>
+      <Dependent Role="COUNTRIES">
+        <PropertyRef Name="region_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_LOCATIONS_COUNTRIES">
+    <End Role="COUNTRIES" Type="Self.COUNTRy" Multiplicity="0..1" />
+    <End Role="LOCATIONS" Type="Self.LOCATION" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="COUNTRIES">
+        <PropertyRef Name="country_id" />
+      </Principal>
+      <Dependent Role="LOCATIONS">
+        <PropertyRef Name="country_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EMPLOYEES_DEPARTMENTS">
+    <End Role="DEPARTMENTS" Type="Self.DEPARTMENT" Multiplicity="0..1" />
+    <End Role="EMPLOYEES" Type="Self.EMPLOYEE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DEPARTMENTS">
+        <PropertyRef Name="department_id" />
+      </Principal>
+      <Dependent Role="EMPLOYEES">
+        <PropertyRef Name="department_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EMPLOYEES_JOBS">
+    <End Role="JOBS" Type="Self.JOB" Multiplicity="0..1" />
+    <End Role="EMPLOYEES" Type="Self.EMPLOYEE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="JOBS">
+        <PropertyRef Name="job_id" />
+      </Principal>
+      <Dependent Role="EMPLOYEES">
+        <PropertyRef Name="job_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="EmpDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="BanTBs" EntityType="Self.BanTB" />
+    <EntitySet Name="COUNTRIES" EntityType="Self.COUNTRy" />
+    <EntitySet Name="DEPARTMENTS" EntityType="Self.DEPARTMENT" />
+    <EntitySet Name="EMPLOYEES" EntityType="Self.EMPLOYEE" />
+    <EntitySet Name="JOBS" EntityType="Self.JOB" />
+    <EntitySet Name="LOCATIONS" EntityType="Self.LOCATION" />
+    <EntitySet Name="REGIONS" EntityType="Self.REGION" />
+    <EntitySet Name="customers" EntityType="Self.customer" />
+    <AssociationSet Name="FK_BanTB_BanTB" Association="Self.FK_BanTB_BanTB">
+      <End Role="BanTB" EntitySet="BanTBs" />
+      <End Role="BanTB1" EntitySet="BanTBs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_COUNTRIES_REGIONS" Association="Self.FK_COUNTRIES_REGIONS">
+      <End Role="REGIONS" EntitySet="REGIONS" />
+      <End Role="COUNTRIES" EntitySet="COUNTRIES" />
+    </AssociationSet>
+    <AssociationSet Name="FK_LOCATIONS_COUNTRIES" Association="Self.FK_LOCATIONS_COUNTRIES">
+      <End Role="COUNTRIES" EntitySet="COUNTRIES" />
+      <End Role="LOCATIONS" EntitySet="LOCATIONS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EMPLOYEES_DEPARTMENTS" Association="Self.FK_EMPLOYEES_DEPARTMENTS">
+      <End Role="DEPARTMENTS" EntitySet="DEPARTMENTS" />
+      <End Role="EMPLOYEES" EntitySet="EMPLOYEES" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EMPLOYEES_JOBS" Association="Self.FK_EMPLOYEES_JOBS">
+      <End Role="JOBS" EntitySet="JOBS" />
+      <End Role="EMPLOYEES" EntitySet="EMPLOYEES" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

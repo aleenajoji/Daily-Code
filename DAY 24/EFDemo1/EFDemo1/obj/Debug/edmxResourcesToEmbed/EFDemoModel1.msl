@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="EmpDBModelStoreContainer" CdmEntityContainer="EmpDBEntities">
+    <EntitySetMapping Name="BanTBs">
+      <EntityTypeMapping TypeName="EmpDBModel.BanTB">
+        <MappingFragment StoreEntitySet="BanTB">
+          <ScalarProperty Name="accotNo" ColumnName="accotNo" />
+          <ScalarProperty Name="acct_holder_name" ColumnName="acct_holder_name" />
+          <ScalarProperty Name="balance" ColumnName="balance" />
+          <ScalarProperty Name="Ref_acno" ColumnName="Ref_acno" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="COUNTRIES">
+      <EntityTypeMapping TypeName="EmpDBModel.COUNTRy">
+        <MappingFragment StoreEntitySet="COUNTRIES">
+          <ScalarProperty Name="country_id" ColumnName="country_id" />
+          <ScalarProperty Name="country_name" ColumnName="country_name" />
+          <ScalarProperty Name="region_id" ColumnName="region_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DEPARTMENTS">
+      <EntityTypeMapping TypeName="EmpDBModel.DEPARTMENT">
+        <MappingFragment StoreEntitySet="DEPARTMENTS">
+          <ScalarProperty Name="department_id" ColumnName="department_id" />
+          <ScalarProperty Name="department_name" ColumnName="department_name" />
+          <ScalarProperty Name="manager_id" ColumnName="manager_id" />
+          <ScalarProperty Name="location_id" ColumnName="location_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EMPLOYEES">
+      <EntityTypeMapping TypeName="EmpDBModel.EMPLOYEE">
+        <MappingFragment StoreEntitySet="EMPLOYEES">
+          <ScalarProperty Name="employee_id" ColumnName="employee_id" />
+          <ScalarProperty Name="first_name" ColumnName="first_name" />
+          <ScalarProperty Name="last_name" ColumnName="last_name" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="phone_number" ColumnName="phone_number" />
+          <ScalarProperty Name="hire_date" ColumnName="hire_date" />
+          <ScalarProperty Name="job_id" ColumnName="job_id" />
+          <ScalarProperty Name="salary" ColumnName="salary" />
+          <ScalarProperty Name="commission_pct" ColumnName="commission_pct" />
+          <ScalarProperty Name="manager_id" ColumnName="manager_id" />
+          <ScalarProperty Name="department_id" ColumnName="department_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="JOBS">
+      <EntityTypeMapping TypeName="EmpDBModel.JOB">
+        <MappingFragment StoreEntitySet="JOBS">
+          <ScalarProperty Name="job_id" ColumnName="job_id" />
+          <ScalarProperty Name="job_title" ColumnName="job_title" />
+          <ScalarProperty Name="min_salary" ColumnName="min_salary" />
+          <ScalarProperty Name="max_salary" ColumnName="max_salary" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LOCATIONS">
+      <EntityTypeMapping TypeName="EmpDBModel.LOCATION">
+        <MappingFragment StoreEntitySet="LOCATIONS">
+          <ScalarProperty Name="location_id" ColumnName="location_id" />
+          <ScalarProperty Name="street_address" ColumnName="street_address" />
+          <ScalarProperty Name="postal_code" ColumnName="postal_code" />
+          <ScalarProperty Name="city" ColumnName="city" />
+          <ScalarProperty Name="state_province" ColumnName="state_province" />
+          <ScalarProperty Name="country_id" ColumnName="country_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="REGIONS">
+      <EntityTypeMapping TypeName="EmpDBModel.REGION">
+        <MappingFragment StoreEntitySet="REGIONS">
+          <ScalarProperty Name="region_id" ColumnName="region_id" />
+          <ScalarProperty Name="region_name" ColumnName="region_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="customers">
+      <EntityTypeMapping TypeName="EmpDBModel.customer">
+        <MappingFragment StoreEntitySet="customers">
+          <ScalarProperty Name="customer_id" ColumnName="customer_id" />
+          <ScalarProperty Name="customer_name" ColumnName="customer_name" />
+          <ScalarProperty Name="customer_address" ColumnName="customer_address" />
+          <ScalarProperty Name="customer_phone" ColumnName="customer_phone" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

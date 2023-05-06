@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EmpDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="BanTB">
+    <Key>
+      <PropertyRef Name="accotNo" />
+    </Key>
+    <Property Name="accotNo" Type="int" Nullable="false" />
+    <Property Name="acct_holder_name" Type="nchar" MaxLength="10" />
+    <Property Name="balance" Type="money" />
+    <Property Name="Ref_acno" Type="int" />
+  </EntityType>
+  <EntityType Name="COUNTRIES">
+    <Key>
+      <PropertyRef Name="country_id" />
+    </Key>
+    <Property Name="country_id" Type="int" Nullable="false" />
+    <Property Name="country_name" Type="nchar" MaxLength="10" />
+    <Property Name="region_id" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'EmpDB.dbo.customers' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="customers">
+    <Key>
+      <PropertyRef Name="customer_id" />
+      <PropertyRef Name="customer_name" />
+    </Key>
+    <Property Name="customer_id" Type="numeric" Precision="4" Scale="0" Nullable="false" />
+    <Property Name="customer_name" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="customer_address" Type="varchar" MaxLength="150" />
+    <Property Name="customer_phone" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="DEPARTMENTS">
+    <Key>
+      <PropertyRef Name="department_id" />
+    </Key>
+    <Property Name="department_id" Type="int" Nullable="false" />
+    <Property Name="department_name" Type="nchar" MaxLength="10" />
+    <Property Name="manager_id" Type="int" />
+    <Property Name="location_id" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'EmpDB.dbo.emp' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="emp">
+          <Property Name="id" Type="int" />
+          <Property Name="name" Type="varchar" MaxLength="50" />
+          <Property Name="sal" Type="decimal" Precision="10" Scale="2" />
+          <Property Name="comm_pct" Type="decimal" Precision="3" Scale="2" />
+          <Property Name="pf" Type="decimal" Precision="10" Scale="2" />
+          <Property Name="hra" Type="decimal" Precision="10" Scale="2" />
+          <Property Name="tearn" Type="decimal" Precision="10" Scale="2" />
+          <Property Name="tded" Type="decimal" Precision="10" Scale="2" />
+          <Property Name="net" Type="decimal" Precision="10" Scale="2" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'EmpDB.dbo.employee' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="employee">
+          <Property Name="id" Type="int" />
+          <Property Name="Name" Type="varchar" MaxLength="20" />
+        </EntityType>-->
+  <EntityType Name="EMPLOYEES">
+    <Key>
+      <PropertyRef Name="employee_id" />
+    </Key>
+    <Property Name="employee_id" Type="int" Nullable="false" />
+    <Property Name="first_name" Type="nchar" MaxLength="10" />
+    <Property Name="last_name" Type="nchar" MaxLength="10" />
+    <Property Name="email" Type="nchar" MaxLength="30" />
+    <Property Name="phone_number" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="hire_date" Type="datetime" />
+    <Property Name="job_id" Type="int" />
+    <Property Name="salary" Type="money" />
+    <Property Name="commission_pct" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="manager_id" Type="int" />
+    <Property Name="department_id" Type="int" />
+  </EntityType>
+  <EntityType Name="JOBS">
+    <Key>
+      <PropertyRef Name="job_id" />
+    </Key>
+    <Property Name="job_id" Type="int" Nullable="false" />
+    <Property Name="job_title" Type="nchar" MaxLength="10" />
+    <Property Name="min_salary" Type="money" />
+    <Property Name="max_salary" Type="money" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'EmpDB.dbo.JOBS_HISTORY' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="JOBS_HISTORY">
+          <Property Name="employee_id" Type="int" />
+          <Property Name="start_date" Type="datetime" />
+          <Property Name="end_date" Type="datetime" />
+          <Property Name="job_id" Type="int" />
+          <Property Name="department_id" Type="int" />
+        </EntityType>-->
+  <EntityType Name="LOCATIONS">
+    <Key>
+      <PropertyRef Name="location_id" />
+    </Key>
+    <Property Name="location_id" Type="int" Nullable="false" />
+    <Property Name="street_address" Type="nvarchar" MaxLength="50" />
+    <Property Name="postal_code" Type="int" />
+    <Property Name="city" Type="nchar" MaxLength="10" />
+    <Property Name="state_province" Type="nchar" MaxLength="10" />
+    <Property Name="country_id" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'EmpDB.dbo.Person' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="Person">
+          <Property Name="PersonID" Type="int" />
+          <Property Name="FirstName" Type="varchar" MaxLength="255" />
+          <Property Name="LastName" Type="varchar" MaxLength="255" />
+          <Property Name="Addresss" Type="varchar" MaxLength="255" />
+          <Property Name="City" Type="varchar" MaxLength="255" />
+        </EntityType>-->
+  <EntityType Name="REGIONS">
+    <Key>
+      <PropertyRef Name="region_id" />
+    </Key>
+    <Property Name="region_id" Type="int" Nullable="false" />
+    <Property Name="region_name" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'EmpDB.dbo.student_grades' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="student_grades">
+          <Property Name="student_id" Type="numeric" Precision="12" Scale="0" />
+          <Property Name="semester_end" Type="date" />
+          <Property Name="gpa" Type="numeric" Precision="4" Scale="3" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'EmpDB.dbo.Table_2' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="Table_2">
+          <Property Name="DeptId" Type="int" />
+          <Property Name="DeptName" Type="varchar" MaxLength="50" />
+        </EntityType>-->
+  <Association Name="FK_BanTB_BanTB">
+    <End Role="BanTB" Type="Self.BanTB" Multiplicity="0..1" />
+    <End Role="BanTB1" Type="Self.BanTB" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BanTB">
+        <PropertyRef Name="accotNo" />
+      </Principal>
+      <Dependent Role="BanTB1">
+        <PropertyRef Name="Ref_acno" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_COUNTRIES_REGIONS">
+    <End Role="REGIONS" Type="Self.REGIONS" Multiplicity="0..1" />
+    <End Role="COUNTRIES" Type="Self.COUNTRIES" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="REGIONS">
+        <PropertyRef Name="region_id" />
+      </Principal>
+      <Dependent Role="COUNTRIES">
+        <PropertyRef Name="region_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EMPLOYEES_DEPARTMENTS">
+    <End Role="DEPARTMENTS" Type="Self.DEPARTMENTS" Multiplicity="0..1" />
+    <End Role="EMPLOYEES" Type="Self.EMPLOYEES" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DEPARTMENTS">
+        <PropertyRef Name="department_id" />
+      </Principal>
+      <Dependent Role="EMPLOYEES">
+        <PropertyRef Name="department_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EMPLOYEES_JOBS">
+    <End Role="JOBS" Type="Self.JOBS" Multiplicity="0..1" />
+    <End Role="EMPLOYEES" Type="Self.EMPLOYEES" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="JOBS">
+        <PropertyRef Name="job_id" />
+      </Principal>
+      <Dependent Role="EMPLOYEES">
+        <PropertyRef Name="job_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_LOCATIONS_COUNTRIES">
+    <End Role="COUNTRIES" Type="Self.COUNTRIES" Multiplicity="0..1" />
+    <End Role="LOCATIONS" Type="Self.LOCATIONS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="COUNTRIES">
+        <PropertyRef Name="country_id" />
+      </Principal>
+      <Dependent Role="LOCATIONS">
+        <PropertyRef Name="country_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="EmpDBModelStoreContainer">
+    <EntitySet Name="BanTB" EntityType="Self.BanTB" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="COUNTRIES" EntityType="Self.COUNTRIES" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DEPARTMENTS" EntityType="Self.DEPARTMENTS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="EMPLOYEES" EntityType="Self.EMPLOYEES" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="JOBS" EntityType="Self.JOBS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LOCATIONS" EntityType="Self.LOCATIONS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="REGIONS" EntityType="Self.REGIONS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="customers" EntityType="Self.customers" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [customers].[customer_id] AS [customer_id], 
+    [customers].[customer_name] AS [customer_name], 
+    [customers].[customer_address] AS [customer_address], 
+    [customers].[customer_phone] AS [customer_phone]
+    FROM [dbo].[customers] AS [customers]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK_BanTB_BanTB" Association="Self.FK_BanTB_BanTB">
+      <End Role="BanTB" EntitySet="BanTB" />
+      <End Role="BanTB1" EntitySet="BanTB" />
+    </AssociationSet>
+    <AssociationSet Name="FK_COUNTRIES_REGIONS" Association="Self.FK_COUNTRIES_REGIONS">
+      <End Role="REGIONS" EntitySet="REGIONS" />
+      <End Role="COUNTRIES" EntitySet="COUNTRIES" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EMPLOYEES_DEPARTMENTS" Association="Self.FK_EMPLOYEES_DEPARTMENTS">
+      <End Role="DEPARTMENTS" EntitySet="DEPARTMENTS" />
+      <End Role="EMPLOYEES" EntitySet="EMPLOYEES" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EMPLOYEES_JOBS" Association="Self.FK_EMPLOYEES_JOBS">
+      <End Role="JOBS" EntitySet="JOBS" />
+      <End Role="EMPLOYEES" EntitySet="EMPLOYEES" />
+    </AssociationSet>
+    <AssociationSet Name="FK_LOCATIONS_COUNTRIES" Association="Self.FK_LOCATIONS_COUNTRIES">
+      <End Role="COUNTRIES" EntitySet="COUNTRIES" />
+      <End Role="LOCATIONS" EntitySet="LOCATIONS" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

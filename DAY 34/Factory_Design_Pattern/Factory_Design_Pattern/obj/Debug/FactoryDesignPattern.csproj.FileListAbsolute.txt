@@ -1,0 +1,3 @@
+D:\Training\DAY 34\Factory_Design_Pattern\Factory_Design_Pattern\obj\Debug\FactoryDesignPattern.csproj.AssemblyReference.cache
+D:\Training\DAY 34\Factory_Design_Pattern\Factory_Design_Pattern\obj\Debug\FactoryDesignPattern.csproj.SuggestedBindingRedirects.cache
+D:\Training\DAY 34\Factory_Design_Pattern\Factory_Design_Pattern\obj\Debug\FactoryDesignPattern.csproj.CoreCompileInputs.cache

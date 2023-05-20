@@ -1,0 +1,8 @@
+D:\Training\DAY 34\prime\prime\bin\Debug\prime.exe.config
+D:\Training\DAY 34\prime\prime\bin\Debug\prime.exe
+D:\Training\DAY 34\prime\prime\bin\Debug\prime.pdb
+D:\Training\DAY 34\prime\prime\obj\Debug\prime.csproj.AssemblyReference.cache
+D:\Training\DAY 34\prime\prime\obj\Debug\prime.csproj.SuggestedBindingRedirects.cache
+D:\Training\DAY 34\prime\prime\obj\Debug\prime.csproj.CoreCompileInputs.cache
+D:\Training\DAY 34\prime\prime\obj\Debug\prime.exe
+D:\Training\DAY 34\prime\prime\obj\Debug\prime.pdb

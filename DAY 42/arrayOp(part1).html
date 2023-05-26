@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+       
+let numbers = [44,55,66,11,32,100,45,50];
+
+let reversedArray = numbers.reverse();
+document.write("Reversed Array : ")
+document.write(reversedArray);
+
+
+try {
+
+ var filteredArray =[];
+ for(let i=0;i<numbers.length;i++){
+    if(numbers[i]>50){
+       filteredArray.push(numbers[i]) 
+    }
+ }
+
+ if (filteredArray.length === 0) {
+
+  throw "Exception: <br> <br> No numbers above 50 found!";
+
+ }
+
+ document.write("<br> <br> Filtered Array greater than 50 : ", filteredArray);
+
+} catch (exception) {
+
+ document.write(exception);
+
+}
+
+
+
+
+    </script>
+</body>
+</html>

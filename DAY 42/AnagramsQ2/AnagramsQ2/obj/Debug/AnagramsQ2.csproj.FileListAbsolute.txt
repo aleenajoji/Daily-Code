@@ -1,0 +1,8 @@
+D:\Training\DAY 42\AnagramsQ2\AnagramsQ2\bin\Debug\AnagramsQ2.exe.config
+D:\Training\DAY 42\AnagramsQ2\AnagramsQ2\bin\Debug\AnagramsQ2.exe
+D:\Training\DAY 42\AnagramsQ2\AnagramsQ2\bin\Debug\AnagramsQ2.pdb
+D:\Training\DAY 42\AnagramsQ2\AnagramsQ2\obj\Debug\AnagramsQ2.csproj.AssemblyReference.cache
+D:\Training\DAY 42\AnagramsQ2\AnagramsQ2\obj\Debug\AnagramsQ2.csproj.SuggestedBindingRedirects.cache
+D:\Training\DAY 42\AnagramsQ2\AnagramsQ2\obj\Debug\AnagramsQ2.csproj.CoreCompileInputs.cache
+D:\Training\DAY 42\AnagramsQ2\AnagramsQ2\obj\Debug\AnagramsQ2.exe
+D:\Training\DAY 42\AnagramsQ2\AnagramsQ2\obj\Debug\AnagramsQ2.pdb

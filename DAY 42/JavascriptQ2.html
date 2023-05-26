@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+ <title>Day of the Week Form</title>
+
+ <script>
+
+  function validateDay() {
+
+   var input = document.getElementById("dayInput").value;
+
+   var day = parseInt(input);
+
+   var daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+   if (isNaN(day) || day < 0 || day > 6) {
+
+    alert("Invalid Input");
+
+   } else {
+
+    alert("The corresponding day is: " + daysOfWeek[day]);
+
+   }
+
+  }
+
+ </script>
+
+</head>
+
+<body>
+
+ <form>
+
+  <label for="dayInput">Enter a day of the week (0-6):</label>
+
+  <input type="text" id="dayInput" name="dayInput">
+
+  <button type="button" onclick="validateDay()">Submit</button>
+
+ </form>
+
+</body>
+
+</html>
+

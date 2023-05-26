@@ -1,0 +1,133 @@
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Document</title>
+
+</head>
+
+<body>
+
+  <script>
+
+    var emails = [
+
+      "abc@gmail.com",
+
+      "xyz@yahoo.com",
+
+      "def@hotmail.com",
+
+      "pqr@gmail.com",
+
+      "lmn@yahoo.com",
+
+      "stu@hotmail.com",
+
+      "ghi@gmail.com",
+
+      "jkl@yahoo.com",
+
+      "vwx@hotmail.com",
+
+      "yza@gmail.com",
+
+      "bcd@yahoo.com",
+
+      "nop@hotmail.com",
+
+      "qrs@gmail.com",
+
+      "tuv@yahoo.com",
+
+      "wxy@hotmail.com",
+
+      "zab@gmail.com",
+
+      "cde@yahoo.com",
+
+      "fgh@hotmail.com",
+
+      "ijk@gmail.com",
+
+      "lmn@yahoo.com",
+
+      "opq@hotmail.com",
+
+      "rst@gmail.com",
+
+      "uvw@yahoo.com",
+
+      "xyz@hotmail.com",
+
+      "pqr@gmail.com",
+
+      "stu@yahoo.com",
+
+      "vwx@hotmail.com",
+
+      "yza@gmail.com",
+
+      "bcd@yahoo.com",
+
+      "nop@hotmail.com"
+
+    ];
+
+  var googleEmails = [];
+
+  var yahooEmails = [];
+
+  var hotmailEmails = [];
+
+  var otherEmails = [];
+
+  for (var i = 0; i < emails.length; i++) {
+
+    var email = emails[i];
+
+    if (email.endsWith("@gmail.com")) {
+
+      googleEmails.push(email);
+
+    }
+
+    else if (email.endsWith("@yahoo.com")) {
+
+      yahooEmails.push(email);
+
+    }
+
+    else if (email.endsWith("@hotmail.com")) {
+
+      hotmailEmails.push(email);
+
+    }
+
+    else {
+
+      otherEmails.push(email);
+
+    }
+
+  }
+
+  document.write("Google Emails:", googleEmails);
+
+  document.write("<br><br>Yahoo Emails:", yahooEmails);
+
+  document.write("<br><br>Hotmail Emails:", hotmailEmails);
+
+  document.write("<br><br>Other Emails:", otherEmails);
+
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+D:\Training\DAY 41\CodeChallg1\CodeChallg1\bin\Debug\CodeChallg1.exe.config
+D:\Training\DAY 41\CodeChallg1\CodeChallg1\bin\Debug\CodeChallg1.exe
+D:\Training\DAY 41\CodeChallg1\CodeChallg1\bin\Debug\CodeChallg1.pdb
+D:\Training\DAY 41\CodeChallg1\CodeChallg1\obj\Debug\CodeChallg1.csproj.AssemblyReference.cache
+D:\Training\DAY 41\CodeChallg1\CodeChallg1\obj\Debug\CodeChallg1.csproj.SuggestedBindingRedirects.cache
+D:\Training\DAY 41\CodeChallg1\CodeChallg1\obj\Debug\CodeChallg1.csproj.CoreCompileInputs.cache
+D:\Training\DAY 41\CodeChallg1\CodeChallg1\obj\Debug\CodeChallg1.exe
+D:\Training\DAY 41\CodeChallg1\CodeChallg1\obj\Debug\CodeChallg1.pdb

@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Enter 1st Number : <input type="text" id="1stnum"><br><br>
+    Enter 2nd Number : <input type="text" id="2ndnum"><br><br>
+    <button id="btn" onclick="sum()">Click me for SUM</button><br><br>
+    Result : <input type="text" id="res">
+
+    <script>
+        function sum(){
+        var num1=document.getElementById("1stnum").value;
+        var num2=document.getElementById("2ndnum").value;
+        var res =document.getElementById("res").value=parseInt(num1)+parseInt(num2);
+        }
+    </script>
+</body>
+</html>

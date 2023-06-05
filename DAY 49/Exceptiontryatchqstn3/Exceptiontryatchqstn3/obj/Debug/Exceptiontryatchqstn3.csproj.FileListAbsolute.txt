@@ -1,0 +1,8 @@
+D:\Training\DAY 49\Exceptiontryatchqstn3\Exceptiontryatchqstn3\bin\Debug\Exceptiontryatchqstn3.exe.config
+D:\Training\DAY 49\Exceptiontryatchqstn3\Exceptiontryatchqstn3\bin\Debug\Exceptiontryatchqstn3.exe
+D:\Training\DAY 49\Exceptiontryatchqstn3\Exceptiontryatchqstn3\bin\Debug\Exceptiontryatchqstn3.pdb
+D:\Training\DAY 49\Exceptiontryatchqstn3\Exceptiontryatchqstn3\obj\Debug\Exceptiontryatchqstn3.csproj.AssemblyReference.cache
+D:\Training\DAY 49\Exceptiontryatchqstn3\Exceptiontryatchqstn3\obj\Debug\Exceptiontryatchqstn3.csproj.SuggestedBindingRedirects.cache
+D:\Training\DAY 49\Exceptiontryatchqstn3\Exceptiontryatchqstn3\obj\Debug\Exceptiontryatchqstn3.csproj.CoreCompileInputs.cache
+D:\Training\DAY 49\Exceptiontryatchqstn3\Exceptiontryatchqstn3\obj\Debug\Exceptiontryatchqstn3.exe
+D:\Training\DAY 49\Exceptiontryatchqstn3\Exceptiontryatchqstn3\obj\Debug\Exceptiontryatchqstn3.pdb

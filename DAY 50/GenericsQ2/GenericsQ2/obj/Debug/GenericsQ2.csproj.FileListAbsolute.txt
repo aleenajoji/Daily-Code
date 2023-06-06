@@ -1,0 +1,8 @@
+D:\Training\DAY 50\GenericsQ2\GenericsQ2\bin\Debug\GenericsQ2.exe.config
+D:\Training\DAY 50\GenericsQ2\GenericsQ2\bin\Debug\GenericsQ2.exe
+D:\Training\DAY 50\GenericsQ2\GenericsQ2\bin\Debug\GenericsQ2.pdb
+D:\Training\DAY 50\GenericsQ2\GenericsQ2\obj\Debug\GenericsQ2.csproj.AssemblyReference.cache
+D:\Training\DAY 50\GenericsQ2\GenericsQ2\obj\Debug\GenericsQ2.csproj.SuggestedBindingRedirects.cache
+D:\Training\DAY 50\GenericsQ2\GenericsQ2\obj\Debug\GenericsQ2.csproj.CoreCompileInputs.cache
+D:\Training\DAY 50\GenericsQ2\GenericsQ2\obj\Debug\GenericsQ2.exe
+D:\Training\DAY 50\GenericsQ2\GenericsQ2\obj\Debug\GenericsQ2.pdb

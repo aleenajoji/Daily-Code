@@ -1,0 +1,8 @@
+D:\Training\DAY 55\InterfaceQ5\InterfaceQ5\bin\Debug\InterfaceQ5.exe.config
+D:\Training\DAY 55\InterfaceQ5\InterfaceQ5\bin\Debug\InterfaceQ5.exe
+D:\Training\DAY 55\InterfaceQ5\InterfaceQ5\bin\Debug\InterfaceQ5.pdb
+D:\Training\DAY 55\InterfaceQ5\InterfaceQ5\obj\Debug\InterfaceQ5.csproj.AssemblyReference.cache
+D:\Training\DAY 55\InterfaceQ5\InterfaceQ5\obj\Debug\InterfaceQ5.csproj.SuggestedBindingRedirects.cache
+D:\Training\DAY 55\InterfaceQ5\InterfaceQ5\obj\Debug\InterfaceQ5.csproj.CoreCompileInputs.cache
+D:\Training\DAY 55\InterfaceQ5\InterfaceQ5\obj\Debug\InterfaceQ5.exe
+D:\Training\DAY 55\InterfaceQ5\InterfaceQ5\obj\Debug\InterfaceQ5.pdb

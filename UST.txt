@@ -1,0 +1,296 @@
+
+Azure Storage Services
+
+https://learn.microsoft.com/en-us/training/modules/azure-storage-fundamentals/introduction
+
+
+
+JSON Reading using Fetch
+
+https://www.tutorialspoint.com/how-to-use-javascript-fetch-api-to-get-data
+
+
+
+Deploy an Azure Kubernetes Service (AKS) cluster using the Azure portal
+
+https://learn.microsoft.com/en-us/azure/aks/learn/quick-kubernetes-deploy-portal?tabs=azure-cli
+
+
+
+Kubernetes
+
+https://kubernetes.io/
+
+https://kubernetes.io/docs/concepts/overview/
+
+https://kubernetes.io/docs/concepts/overview/components/
+
+
+
+
+
+
+Docker
+
+https://docs.docker.com/get-started/overview/
+
+https://www.guru99.com/docker-tutorial.html
+
+Top 15 Docker Commands
+
+https://www.edureka.co/blog/docker-commands/
+
+Try Docker with C#
+
+https://docs.docker.com/language/dotnet/
+
+Try it yourself
+
+https://docs.docker.com/language/nodejs/
+
+
+
+==================
+docker image-----------------
+https://docs.docker.com/language/dotnet/build-images/
+===================
+
+A good video about Repository Pattern
+
+https://www.youtube.com/watch?v=Wiy54682d1w
+
+A video for learning JWT
+
+https://youtu.be/v7q3pEK1EA0
+
+JWT
+
+https://www.c-sharpcorner.com/article/how-to-implement-jwt-authentication-in-web-api-using-net-6-0-asp-net-core/
+
+Azure SQL documentation
+
+https://learn.microsoft.com/en-us/azure/azure-sql/?view=azuresql
+
+What is Azure SQL?
+
+https://learn.microsoft.com/en-us/azure/azure-sql/azure-sql-iaas-vs-paas-what-is-overview?view=azuresql
+
+What is a single database in Azure SQL Database?
+
+https://learn.microsoft.com/en-us/azure/azure-sql/database/single-database-overview?view=azuresql
+
+Quickstart: Create a single database - Azure SQL Database
+
+https://learn.microsoft.com/en-us/azure/azure-sql/database/single-database-create-quickstart?view=azuresql&tabs=azure-portal
+
+Quickstart: Use SSMS to connect to and query Azure SQL Database or Azure SQL Managed Instance
+
+https://learn.microsoft.com/en-us/azure/azure-sql/database/connect-query-ssms?view=azuresql
+
+
+
+
+Azure Windows Virtual Machine creation
+
+https://learn.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-portal 
+
+
+
+
+
+microservices 
+
+https://www.c-sharpcorner.com/article/microservice-using-asp-net-core/
+
+
+Microsoft Web API Walkthrough in ASP.NET Core
+
+
+
+https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-6.0&tabs=visual-studio
+
+Call ASP.NET Core WebAPI with JavaScript
+
+https://learn.microsoft.com/en-us/aspnet/core/tutorials/web-api-javascript?view=aspnetcore-6.0
+
+REST
+
+https://en.wikipedia.org/wiki/Representational_state_transfer
+
+HTTP Request Methods
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods
+
+ASP.NET Core WEB API
+
+https://dotnet.microsoft.com/en-us/apps/aspnet/apis
+
+Fake API Web
+
+https://jsonplaceholder.typicode.com/
+
+ASP.NET Core WebAPI Tutorial
+
+https://dotnettutorials.net/course/asp-net-web-api/
+
+AZURE Cloud Fundamentals
+
+https://azure.microsoft.com/en-us/overview/what-is-cloud-computing/
+
+https://learn.microsoft.com/en-us/training/paths/microsoft-azure-fundamentals-describe-cloud-concepts/
+
+How Azure Works
+
+https://www.microsoft.com/en-gb/videoplayer/embed/RE2ixGo?autoCaptions=en-gb
+
+CSS
+
+https://www.w3schools.com
+
+https://www.tutorialrepublic.com/css-tutorial/
+
+Design Patterns
+
+https://dotnettutorials.net/course/dot-net-design-patterns/
+
+Solid Principles
+
+https://dotnettutorials.net/course/solid-design-principles/
+
+
+
+https://www.geeksforgeeks.org/unified-modeling-language-uml-sequence-diagrams/
+
+Task --- Async --- await
+
+https://www.c-sharpcorner.com/article/async-and-await-in-c-sharp/
+
+
+
+Regular Expression in C#
+
+https://www.c-sharpcorner.com/UploadFile/955025/regular-expression-in-C-Sharp/
+https://www.c-sharpcorner.com/article/c-sharp-regex-examples/
+
+Razor Syntax
+
+https://learn.microsoft.com/en-us/aspnet/core/mvc/views/razor?view=aspnetcore-6.0
+
+ASP.NET Core MVC
+
+https://learn.microsoft.com/en-us/aspnet/core/mvc/overview?view=aspnetcore-6.0
+
+ASP.NET Core Web Application (MVC)
+
+https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/start-mvc?view=aspnetcore-6.0&tabs=visual-studio
+
+
+
+https://www.tutorialsteacher.com/csharp/csharp-arraylist#:~:text=C%23%20-%20ArrayList%201%20Adding%20Elements%20in%20ArrayList,ArrayList%20...%206%20Check%20Element%20in%20ArrayList%20
+
+ASP.NET Core
+
+https://learn.microsoft.com/en-us/aspnet/core/?view=aspnetcore-7.0
+
+
+
+ASP.NET Core Web Application (Razor)
+
+https://learn.microsoft.com/en-us/aspnet/core/tutorials/razor-pages/?view=aspnetcore-7.0
+
+
+
+https://www.c-sharpcorner.com/article/all-about-c-sharp-collections-when-to-choose-what/
+
+
+
+https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/collections
+
+
+
+https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic?view=net-7.0
+
+
+
+Coding Conventions
+
+
+
+https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions
+
+
+
+Code Quality
+
+https://www.codeguru.com/csharp/c-sharp-code-quality/
+
+
+
+Testing in .NET
+
+
+
+https://learn.microsoft.com/en-us/visualstudio/test/unit-test-basics?view=vs-2022
+
+
+
+practice for UnitTesting  (MSTEST)
+
+https://www.c-sharpcorner.com/article/a-basic-introduction-of-unit-test-for-beginners/
+
+
+
+Testing using NUNIT
+
+https://www.c-sharpcorner.com/article/introduction-to-nunit-testing-framework/
+
+
+
+
+
+UML lucidchart
+
+https://www.youtube.com/playlist?list=PLUoebdZqEHTxpGCwKrb82cIvHNoNaBb4R
+
+
+
+LINQ
+
+https://learn.microsoft.com/en-us/dotnet/csharp/linq/
+
+=============================================================================================================================================================
+
+
+c# COLLECTIONS 
+
+https://www.c-sharpcorner.com/article/all-about-c-sharp-collections-when-to-choose-what/
+
+
+
+https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/collections
+
+
+
+https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic?view=net-7.0
+
+Coding Conventions
+
+
+
+https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions
+
+Testing in .NET
+
+https://learn.microsoft.com/en-us/dotnet/core/testing/
+
+https://learn.microsoft.com/en-us/visualstudio/test/unit-test-basics?view=vs-2022
+
+
+
+practice for UnitTesting 
+
+https://www.c-sharpcorner.com/article/a-basic-introduction-of-unit-test-for-beginners/
+
+entity framework+++++++++++++++++++++++++++++++++++++++
+
+https://www.entityframeworktutorial.net/what-is-entityframework.aspx

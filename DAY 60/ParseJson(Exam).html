@@ -1,0 +1,199 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="demo"></div>
+    <script>
+        function calculateTotalCost(orderArray) {
+            let tot = 0;
+
+            for (let i = 0; i < orderArray.length; i++) {
+                const orderData = JSON.parse(orderArray[i]);
+                const unitCost = orderData.unitCost;
+                const Quantity = orderData.Quantity;
+                tot += unitCost * Quantity;
+            }
+
+            return tot;
+        }
+
+        function main() {
+            const numOrders = prompt("Enter the number of order data elements:");
+
+            const orderArray = [];
+
+            for (let i = 0; i < numOrders; i++) {
+                const unitCost = prompt("Enter the unit cost for order " + (i + 1) + ":");
+                const quantity = prompt("Enter the quantity for order " + (i + 1) + ":");
+
+                const orderData = {
+                    unitCost: parseInt(unitCost),
+                    Quantity: parseInt(quantity),
+                };
+
+                orderArray.push(JSON.stringify(orderData));
+            }
+
+            const totalCost = calculateTotalCost(orderArray);
+            document.getElementById("demo").innerText = 'Total Cost: ' + totalCost;
+        }
+
+        main();
+    </script>
+</body>
+</html>
+
+<!-- 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="demo"></div>
+    <script>
+        function calculateTotalCost(orderArray) {
+            let tot = 0;
+
+            for (let i = 0; i < orderArray.length; i++) {
+                const orderData = JSON.parse(orderArray[i]);
+                const unitCost = orderData.unitCost;
+                const Quantity = orderData.Quantity;
+                tot += unitCost * Quantity;
+            }
+
+            return tot;
+        }
+
+        function main() {
+            const orderArray = [];
+
+            while (true) {
+                const unitCost = prompt("Enter the unit cost:");
+                const quantity = prompt("Enter the quantity:");
+
+                const orderData = {
+                    unitCost: parseInt(unitCost),
+                    Quantity: parseInt(quantity),
+                };
+
+                orderArray.push(JSON.stringify(orderData));
+
+                const continueInput = confirm("Do you want to enter more order data?");
+                if (!continueInput) {
+                    break;
+                }
+            }
+
+            const totalCost = calculateTotalCost(orderArray);
+            document.getElementById("demo").innerText = 'Total Cost: ' + totalCost;
+        }
+
+        main();
+    </script>
+</body>
+</html> -->
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="demo">
+
+    </div>
+    <script>
+        function calculateTotalCost(orderArray) {
+            let tot = 0;
+
+            for (let i = 0; i < orderArray.length; i++) {
+                const orderData = JSON.parse(orderArray[i].replace(/'/g, '"'));
+                const unitCost = orderData.unitCost;
+                const Quantity = orderData.Quantity;
+                tot += unitCost * Quantity;
+            }
+
+            return tot;
+        }
+
+        function main() {
+            let orderArray = [];
+
+            while (true) {
+                const orderData = prompt("Enter order data (in the format: {'unitCost': 10, 'Quantity': 2}), or type 'done' to finish:");
+
+                if (orderData.toLowerCase() === 'done') {
+                    break;
+                }
+
+                orderArray.push(orderData);
+            }
+
+            const totalCost = calculateTotalCost(orderArray);
+            document.getElementById("demo").innerText = 'Total Cost: ' + totalCost;
+        }
+
+        main();
+    </script>
+</body>
+</html> -->
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="demo">
+
+    </div>
+    <script>
+        function calculateTotalCost(orderArray) {
+            let tot = 0;
+
+            for (let i = 0; i < orderArray.length; i++) {
+                const orderData = JSON.parse(orderArray[i]);
+                const unitCost = orderData.unitCost;
+                const Quantity = orderData.Quantity;
+                tot += unitCost * Quantity;
+            }
+
+            return tot;
+        }
+
+        function main() {
+            // Example order array
+            const orderArray = [
+                '{"unitCost": 10, "Quantity": 2}',
+                '{"unitCost": 15, "Quantity": 3}',
+                '{"unitCost": 20, "Quantity": 1}'
+            ];
+
+            const totalCost = calculateTotalCost(orderArray);
+            document.getElementById("demo").innerText = 'Total Cost: ' + totalCost;
+        }
+
+        main();
+    </script>
+</body>
+</html> -->

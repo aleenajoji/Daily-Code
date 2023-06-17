@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <!--Create a HTML form to accept User Name, Password and Confirm Password. 
+            Check if all the input controls are not blank. Display error message if blank. 
+            Else display User Name in a dialog box.-->
+        <form >
+            <label >Name :</label><br>
+            <input type="text" id="name" required><br>
+            <label >Password</label><br>
+            <input type="password" id="paswd" name="pswd" required><br>
+            <label >Confirm Password</label><br>
+            <input type="password" id="Cpaswd" name="pswd" required><br>
+            <button type="button" onclick="fun()" id="btn">Click ME</button><br>
+        </form>
+        <div id="demo"></div>
+        <script>
+            function fun()
+            {
+                
+                var name=document.getElementById("name").value;
+                var password=document.getElementById("paswd").value;
+                var Confirm_password=document.getElementById("Cpaswd").value;
+                if(name!=="" && password!=="" && Confirm_password!==""){
+                    alert(`Username ${name}`);
+                }
+                else{
+                    alert("Error");
+                }
+                
+            }
+            
+        </script>
+    </body>
+</html>

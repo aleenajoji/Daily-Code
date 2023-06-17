@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var size=parseInt(prompt("enter size"));
+        var arr=[];
+        var mid;
+        for(var i=0;i<size;i++){
+            arr[i]=parseInt(prompt("Enter array elements"));
+        } 
+        var target=parseInt(prompt("ENTER Target Element"));
+        var left =0;
+        var right=size-1;
+        while(left<=right){
+         mid=Math.floor((left+right)/2);
+        if(arr[mid]===target){
+            break;
+        }
+        else if(arr[mid]<target){
+            left=mid+1;
+        }else{
+            right=mid-1;
+        }
+        }
+        if(arr[mid]===target){
+            document.write(mid+1);
+        }
+        else{
+            document.write("Element not found");
+        }
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<html lang="en">
+    <html>
+<head>
+ 
+</head>
+<body>
+
+    <div id="demo"></div>
+    <script>
+        var num1=parseInt(prompt("Enter starting number"));
+        var num2=parseInt(prompt("Enter ending number"));
+        var count=0,res="";
+        for(var i=num1;i<=num2;i++){
+            var isprime=true;
+
+            for(var j=2;j<i;j++){
+            if(i%j===0){
+                isprime=false;
+                break;
+            }
+        }
+
+            if(isprime ){
+                res+=i + " ";
+                count++;
+                }
+            
+        }
+        if(count===0){
+            document.getElementById("demo").innerHTML="No numbers found!"
+        }
+        else{
+        document.getElementById("demo").innerHTML=`The prime numbers (count : ${count}) found are : ${res}`;
+        }
+    </script>
+</body>
+</html>
+<!-- <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="demo"></div>
+    <script>
+        var num1 = parseInt(prompt("Enter starting number"));
+        var num2 = parseInt(prompt("Enter ending number"));
+        var count = 0;
+        var res = "";
+
+        for (var i = num1; i <= num2; i++) {
+            var isprime = true;
+
+            for (var j = 2; j < i; j++) {
+                if (i % j === 0) {
+                    isprime = false;
+                    break;
+                }
+            }
+
+            if (isprime && i > 1) {
+                res += i + " ";
+                count++;
+            }
+        }
+
+        if (count === 0) {
+            document.getElementById("demo").innerHTML = "No prime numbers found!";
+        } else {
+            document.getElementById("demo").innerHTML = "The prime numbers (count: " + count + ") found are: " + res;
+        }
+    </script>
+</body>
+</html> -->

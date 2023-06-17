@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <div id="demo"></div>
+    <div id="demo1"></div> -->
+    <script>
+        var num=prompt("enter the size");
+        var arr=[];
+        for(var i=0;i<num;i++){
+            arr[i]=parseInt(prompt(1+i +"Enter array elements "));
+        }
+        for(var i=0;i<num;i++){
+            document.write(`${arr[i]} <br>`);
+        }
+
+        var Max=Math.max(...arr);
+         var NewNoDuplicateArray=[...new Set(arr)];    // The Set object is a built-in JavaScript data structure
+                                                    //  that allows you to store unique values of any type. By 
+                                                     //  passing the arr array as an argument to new Set(), 
+                                                     //  it creates a new Set object containing only the unique values from arr.
+                                                     //[...new Set(arr)]: The spread operator ... is used to spread the unique values
+                                                     // from the Set object into a new array. It creates a new array Max with the unique values from arr.
+        var Min=Math.min(...arr);
+        document.write(`${Max} ${Min}     array   :   ${NewNoDuplicateArray}`);
+        
+    </script>
+</body>
+</html>

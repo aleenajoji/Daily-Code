@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!--Accept user input of 2 numbers. Based on the value selected in the dropdown list, 
+        do addition, subtraction and multiplication to produce result in a div on button click.-->
+    <form action="">
+        
+            <label >Enter 1st num</label><br>
+            <input type="text" id="1st"><br>
+            <label >Enter 2nd num</label><br>
+            <input type="text" id="2nd"><br>
+            <select id="opt"><br>
+                <option >Select an option </option>
+            <option  >Add</option>
+            <option >Sub</option>
+            <option >Mult</option>
+            <option >Div</option>
+        </select><br>
+        <button type="button" onclick="fun()">Click me</button><br>
+        <input type="text" id="res">
+    </form>
+    <script>
+        function fun(){
+        var num1=parseInt(document.getElementById("1st").value);
+        var num2=parseInt(document.getElementById("2nd").value);
+        var opt=document.getElementById("opt").value;
+        var result ;
+        switch(opt){
+            case "Add":
+            result= num1+num2;
+            break;
+            case "Sub" :
+            result=num1-num2;
+            break;
+            case "Mult":
+            result= num1*num2;
+            break;
+            case "Div":
+            result= num1/num2;
+            break;
+        }
+        document.getElementById("res").value=result;
+        }
+        
+    </script>
+</body>
+</html>

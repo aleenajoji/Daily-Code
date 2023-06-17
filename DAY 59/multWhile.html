@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Display the multiplication table of 8 from 1 to 10 using while loop-->
+    <div id="demo"></div>
+    <script>
+         var i=1,table='';
+        while(i<=10){
+           var n=8*i;
+            table += `8 x ${i} = ${n}<br>`;
+            i++;
+            
+        }
+         document.getElementById("demo").innerHTML=table;
+         
+    </script>
+</body>
+</html>
+

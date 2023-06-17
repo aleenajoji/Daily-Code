@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <!--Create a HTML form to accept First Name and Last Name from the user. 
+            On button click, greet the user with First and Last name concatenated with a space.-->
+        <form >
+            <label >First Name :</label><br>
+            <input type="text" id="fname"><br>
+            <label >Last Name:</label><br>
+            <input type="text" id="lname"><br>
+            <button type="button" onclick="fun()" id="btn">Click ME</button><br>
+        </form>
+        <div id="demo"></div>
+        <script>
+            function fun()
+            {
+                var fname=document.getElementById("fname").value;
+                var lname=document.getElementById("lname").value;
+                document.getElementById("demo").innerHTML=`Hello ${fname} ${lname}`;
+                
+            }
+            
+        </script>
+        
+            
+    </body>
+</html>

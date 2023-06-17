@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Create a HTML file and place a div inside the body. 
+        Create a javascript code for window onload event. 
+        Create variables name and age with values "John" and 25 respectively.
+         Display "Hello <<name>>! You are <<age>> years old." in the div onload. 
+            In the next line, Display "In 10 years, you will be <<age+10>> years old".-->
+    <div id="demo"></div>
+    <script>
+        var name="John";
+       var age=25; 
+       document.getElementById("demo").innerHTML=`Hello ${name} ! You are ${age} years old.<br>
+        In 10 years, you will be ${age+10} years old`;
+    </script>
+</body>
+</html>
+
